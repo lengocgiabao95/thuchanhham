@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function processConfirm(answer) {
+        let result ="";
+        if(answer) {
+            result = "Choi game gi day bro?" ;
+        } else {
+            result = "khong choi thi vao day lam gi bro?"
+        }
+        return result;
+    }
+    let confirmAnswer = confirm(" Do you want to play some fking game with me");
+    let answerResult = processConfirm(confirmAnswer);
+    alert(answerResult);
+
+
+    
+</script>
+</body>
+</html>
